@@ -1,3 +1,227 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.Head-Donate {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.Head-Donate h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.sec-1 {
+    background-image: url(images/donation-hand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.Donate-button {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background-image: linear-gradient(orange, rgba(250, 111, 18, 0.842));
+}
+
+.sec-2 {
+    display: flexbox;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 100px;
+
+}
+
+.sec-2 h1 {
+    font-size: 2.5em;
+}
+
+.Donate-Amount {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin-left: 30%;
+    padding-left: 30px;
+
+
+}
+
+.Donate-Amount p {
+    padding: 30px 20px;
+    font-size: xx-large;
+    border: solid gray 0;
+    border-radius: 5px;
+    background-color: rgba(230, 224, 224, 0.377);
+    margin-left: 5px;
+    color: rgba(116, 103, 103, 0.884);
+
+}
+
+.Donate-Amount p:hover {
+    color: orangered;
+
+}
+
+#hielighted {
+    color: white;
+    background-color: rgb(228, 155, 128);
+    border: solid orangered 2px;
+
+}
+
+#hielighted:hover {
+    color: orangered;
+}
+
+.Other-Amount {
+    border: none;
+    border-bottom: 2px solid rgba(214, 205, 205, 0.432);
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 20px;
+
+}
+
+#input-Area {
+    border: none;
+    font-size: 20px;
+
+
+}
+
+.dnt-btn {
+    margin: 10px;
+    margin-left: 10px;
+
+}
+
+#donnate-now {
+
+    padding: 5px 10px;
+    background-image: linear-gradient(orange, rgba(250, 111, 18, 0.842));
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.sec-3 {
+    display: flexbox;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+
+}
+
+.sec-3 h1 {
+    font-size: 2.5em;
+}
+
+
+.Donate-card {
+    margin-left: 10%;
+    text-align: center;
+    display: flex;
+    margin-right: 10%;
+}
+
+
+.card-1 {
+    width: 350px;
+    background-color: rgba(115, 102, 128, 0.356);
+    padding: 20px 30px;
+    margin-left: 30px;
+    border: 0 solid grey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#card-02 {
+    background-color: rgba(146, 214, 146, 0.651);
+}
+
+#card-03 {
+
+    background-color: rgba(226, 150, 120, 0.473);
+}
+
+.contribute-area {
+    display: flex;
+    margin-top: 100px;
+}
+
+.contribute-div-01 {
+    width: 40%;
+    margin-left: 50px;
+    text-align: justify;
+    margin-right: 80px;
+
+
+}
+
+.donation-image img {
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 550px;
+    height: 450px;
+
+}
+
+.Updates {
+    margin: 50px 350px;
+}
+
+.mail-bar {
+    border: solid none;
+    border-radius: 8px;
+    padding: 70px 100px;
+    margin: 50px 350px;
+    background-color: antiquewhite;
+}
+
+.mail-bar>div>input {
+    border: none;
+    padding: 10px 50px 0px;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgb(196, 189, 189);
+}
+
+.mail-bar>div>button {
+    padding: 10px 10px;
+    background-image: linear-gradient(orange, rgba(250, 111, 18, 0.842));
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 0%;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    color: cornsilk;
+    margin-top: 50px;
+}
+
+#be-H {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: crimson;
+    margin-top: 15px;
 }
